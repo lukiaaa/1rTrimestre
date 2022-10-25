@@ -1,4 +1,6 @@
-El piezo empieza a sonar cuando sensor de luz ambiental detecta luz cuando mas luz detecte el sensor el pizo suena mas fuerte.
+El piezo empieza a sonar cuando el sensor de luz ambiental detecta luz,
+cuando mas luz detecte el sensor el pizo suena mas fuerte si ya no suena es por que ya no detecta luz.
+
 Codigo:int sensorValue;
 int sensorLow = 1023;
 int sensorHigh = 0;
